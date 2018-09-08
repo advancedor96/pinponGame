@@ -1,0 +1,68 @@
+html, body{
+   margin: 0;
+}
+.game{
+   display: inline-block;
+   width: 500px;
+   height: 500px;
+   /* box-sizing: border-box; */
+   border: solid;
+   position: relative;
+}
+.game2{
+   display: inline-block;
+   width: 500px;
+   height: 500px;
+   /* box-sizing: border-box; */
+   border: solid;
+   position: relative;
+}
+
+.board{
+   position: absolute;
+   display: inline-block;
+   width: 100px;
+   height: 15px;
+   background-color: black;
+}
+.ball{
+   position: absolute;
+   display: inline-block;
+   width: 15px;
+   height: 15px;
+   background-color: blue;
+   border-radius: 50%;
+}
+.info{
+   position: absolute;
+   display: inline-block;
+   width: 500px;
+   height: 500px;
+   box-sizing: border-box;
+   background-color: black;
+   left:0;
+   top:0;
+}
+.infoBtn{
+   position: absolute;
+   left: 50%;
+   top: 10%;
+   transform: translate(-50%);
+   font-size: 36px;
+   color: white;
+   background-color: transparent;
+   padding: 15px 30px;
+   border: 2px solid;
+   line-height: 36px;
+   border-radius: 8px;
+}
+.infoText{
+   position: absolute;
+   left: 0;
+   top: 150px;
+   display: inline-block;
+   width: 500px;
+   text-align: center;
+   font-size: 126px;
+   color: white;
+}
